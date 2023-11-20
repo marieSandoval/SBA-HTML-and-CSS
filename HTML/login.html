@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/login.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <title>Login</title>
+</head>
+<body>
+
+        <nav>
+          <ul id="nav-links">
+            <li><a href="/HTML/Home.html">Home</a></li>
+            <li><a href="/HTML/Menu.html">Menu</a></li>
+            <li><a href="/HTML/Locations.html">Locations</a></li>
+            <li><a href="/HTML/Login.html">Login</a></li>
+            <li><a href="/HTML/Signup.html">Sign-Up</a></li>
+          </ul>
+        </nav>
+
+
+    <form method="post">
+        <div class="container">
+
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Enter email" required>
+
+            <label for="password"><b>Password</b></label>
+            <input id="password" type="text" placeholder="Enter password" required>
+
+            <button class="btn" type="submit">Login</button>
+            <button class="btn" type="submit"><a id="sign_up_btn" href="../HTML/Signup.html">Sign Up</a></button>
+            <div id="remember_forgot">
+                <label>
+                <input type="checkbox" name="remember_me">Remember me
+                </label>
+                <p><a href="../HTML/Login.html">Forgot password?</a></p>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
