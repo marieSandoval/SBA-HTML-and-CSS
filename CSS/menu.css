@@ -1,0 +1,50 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  color: black;
+  width: 100%;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  list-style: none;
+  margin-top: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+#appetizers {
+    text-align: center;
+    margin: 100px 50px 50px 50px;
+}
+
+#ramen {
+    text-align: center;
+    margin: 100px 50px 50px 50px;
+}
+
+#deserts {
+    text-align: center;
+    margin: 100px 50px 50px 50px;
+}
+
+.dish_sections {
+    margin-top: 40px;
+}

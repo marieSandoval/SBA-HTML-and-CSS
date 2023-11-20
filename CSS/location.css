@@ -1,0 +1,74 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  color: black;
+  width: 100%;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  list-style: none;
+  margin-top: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+#location {
+   display: flex;
+   align-items: center;
+   margin-top: 65px;
+}
+
+#where_we_are {
+    text-align: center;
+    margin: auto;
+}
+
+#locations_title {
+    margin-bottom: 20px;
+    font-family: "Agbalumo", sans-serif;
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+
+#locations_info {
+    margin: 15px auto;
+}
+
+#hours_gif {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#Opening_Times {
+    margin-left: 400px;
+}
+
+#hours {
+    text-align: center;
+    font-family: "Agbalumo", sans-serif;
+    letter-spacing: 2px;
+    font-size: 35px;
+}
+
+td {
+    padding: 10px;
+}
