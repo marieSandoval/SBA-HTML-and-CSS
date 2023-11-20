@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../CSS/home.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <title>Bowlful Bliss</title>
+  </head>
+  <body>
+    <!-- 
+        HTML Requirements
+        - 3 pages ------X------
+        - 10 HTML tag (ex. section, main, div, br...) ------X------
+        - one table ------X------
+        - two forms (sign up, order, sign in) ------X------
+        - dropdown menu ------X------
+        - one of each (text, images, GIFs) ------X------
+
+        CSS Requirements
+        - make use of inline, internal, external styling ------X------
+         - Inline: <span style="font-weight: 500"> ------X------
+         - Internal <style></style> ------X------
+        - 5 different CSS Selectors (.class, #id, p, d, a, *) ------X------
+        - colors that complement each other ------X------
+        - use flexbox and/or bootstrap grid ------X------
+        - 2 css animations 1 done
+     -->
+
+    <main>
+      <div id="home_img_and_title">
+        <h1 id="restaurant_name">Blissful Bowls</h1>
+        <img id="main_img" src="/images/home_ramen_pic.jpg" alt="ramen" />
+      </div>
+
+      <div>
+        <nav>
+          <ul id="nav-links">
+            <li><a href="/HTML/Home.html">Home</a></li>
+            <li><a href="/HTML/Menu.html">Menu</a></li>
+            <li><a href="/HTML/Locations.html">Locations</a></li>
+            <li><a href="/HTML/Login.html">Login</a></li>
+            <li><a href="/HTML/Signup.html">Sign-Up</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div id="quote">
+        <h2>
+          10 years of perfecting the art of ramen, bringing you a decade of
+          flavorful bliss in every bowl
+        </h2>
+      </div>
+
+      <div>
+        <h2 id="top_three"><span style="font-family: Agbalumo, sans-serif; letter-spacing: 2px;">Top 3 dishes</span></h2>
+
+        <div id="top_1">
+          <img id="ramen_img1" src="/images/TopThreeOne.jpg" alt="ramen" />
+          <div class="top_1_title_para">
+            <h3>Kyoto Blossom</h3>
+            <p>
+            A harmonious blend of rich tonkotsu broth, succulent slices of
+            chashu pork, marinated soft-boiled egg, and an array of umami-packed
+            ingredients, creating a truly euphoric ramen experience.
+          </p>
+          </div>
+        </div>
+
+
+        <div id="top_2">
+          <div class="top_2_title_para">
+            <h3>Umami Euphoria</h3>
+            <p>
+              Delicate sakura-infused miso broth embraces tender noodles,
+              accompanied by the essence of spring with bamboo shoots, shiitake
+              mushrooms, and hints of floral notes, capturing the spirit of Kyoto
+              in a comforting bowl.
+            </p>
+          </div>
+          <img id="ramen_img2" src="/images/TopThreeTwo.jpg" alt="ramen" />
+        </div>
+
+
+        <div id="top_3">
+          <img id="ramen_img3" src="/images/Ramen_img2.jpg" alt="ramen" />
+          <div class="top_3_title_para">
+            <h3>Dragonfire Chili</h3>
+            <p>
+              Ignite your taste buds with a fiery fusion of spicy miso broth,
+              seasoned ground pork, tofu cubes, and a vibrant medley of
+              vegetables, delivering a thrilling and flavorful ramen adventure
+              with every spicy slurp.
+            </p>
+          </div>
+        </div>
+
+
+        <div id="order_section">
+          <label for="order_choice">Order Here</label>
+          <select name="order_choice" id="order_choice">
+            <option value="" disabled selected>Select an option</option>
+            <option value="Pick-up">Pick-up</option>
+            <option value="Delivery">Delivery</option>
+          </select>
+        </div>
+      </div>
+
+    </main>
+  </body>
+</html>
