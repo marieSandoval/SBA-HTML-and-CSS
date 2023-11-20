@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/signup.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <title>Sign-up</title>
+</head>
+<body>
+
+    <div>
+        <nav>
+          <ul id="nav-links">
+            <li><a href="/HTML/Home.html">Home</a></li>
+            <li><a href="/HTML/Menu.html">Menu</a></li>
+            <li><a href="/HTML/Locations.html">Locations</a></li>
+            <li><a href="/HTML/Login.html">Login</a></li>
+            <li><a href="/HTML/Signup.html">Sign-Up</a></li>
+          </ul>
+        </nav>
+      </div>
+
+
+    <form method="post">
+        <div class="container">
+
+            <label for="first_name"><b>First name</b></label>
+            <input type="text" placeholder="Enter your first name" required>
+
+            <label for="last_name"><b>Last name</b></label>
+            <input type="text" placeholder="Enter your last name" required>
+
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Enter email" required>
+
+            <label for="password"><b>Password</b></label>
+            <input type="text" placeholder="Enter password" required>
+
+            <label for="confirm_password"><b>Confirm password</b></label>
+            <input type="text" placeholder="Confirm password" required>
+
+            <button  class="btn" type="submit">Sign Up</button>
+            <div id="remember_forgot">
+                <label>
+                    <input type="checkbox" name="remember_me">Remember me
+                </label>
+                <p><a href="/HTML/Login.html">Forgot password?</a></p>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
