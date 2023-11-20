@@ -1,0 +1,173 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+#home_img_and_title {
+  position: relative;
+}
+
+#main_img {
+  max-width: 100%;
+}
+
+#restaurant_name {
+  font-size: 90px;
+  font-family: "Agbalumo", sans-serif;
+  position: absolute;
+  color: ghostwhite;
+  margin: 95px 50px 50px 830px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+#restaurant_name:hover {
+  font-size: 95px;
+  transition-duration: 0.5s;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  color: ghostwhite;
+  width: 100%;
+  background: linear-gradient(180deg, #202020 0%, transparent 100%);
+}
+
+nav > ul {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  list-style: none;
+  margin-top: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: ghostwhite;
+}
+
+#quote {
+    text-align: center;
+    margin-top: 250px;
+    margin-bottom: 270px;
+    font-size: 30px;
+}
+
+#top_three {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 60px;
+    font-size: 40px;
+}
+
+#ramen_img1 {
+  width: auto;
+  height: 800px;
+}
+
+#top_1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#top_1_title_para {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.top_1_title_para {
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+div.top_1_title_para > h3 {
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+#ramen_img2 {
+  width: 700px;
+  height: 600px;
+}
+
+#top_2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#top_2_title_para {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.top_2_title_para {
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+div.top_2_title_para > h3 {
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+#top_3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#top_3_title_para {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.top_3_title_para {
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+div.top_3_title_para > h3 {
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+#ramen_img3 {
+  width: auto;
+  height: 600px;
+}
+
+#order_section {
+    background-color: black;
+    color: ghostwhite;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    margin: 90px 300px 90px 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+select {
+margin: 10px 100px 10px 100px;
+}
+
