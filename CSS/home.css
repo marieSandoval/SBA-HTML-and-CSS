@@ -18,6 +18,12 @@ body {
   max-width: 100%;
 }
 
+#restaurant_name_container {
+  top: 95px;
+  left: 830px;
+  overflow: hidden;
+}
+
 #restaurant_name {
   font-size: 90px;
   font-family: "Agbalumo", sans-serif;
@@ -26,11 +32,12 @@ body {
   margin: 95px 50px 50px 830px;
   letter-spacing: 2px;
   text-align: center;
+  animation: titleslide 1s ease-in-out;
 }
 
-#restaurant_name:hover {
-  font-size: 95px;
-  transition-duration: 0.5s;
+@keyframes titleslide {
+  from {transform: translateX(100%)}
+  to {transform: translateX(0);}
 }
 
 nav {
@@ -59,6 +66,19 @@ nav a {
     margin-top: 250px;
     margin-bottom: 270px;
     font-size: 30px;
+}
+
+#quote:hover {
+  animation: growText 2s ease-in;
+}
+
+@keyframes growText {
+  0% {
+    font-size: 30px;
+  }
+  100% {
+    font-size: 32px;
+  }
 }
 
 #top_three {
@@ -170,4 +190,3 @@ div.top_3_title_para > h3 {
 select {
 margin: 10px 100px 10px 100px;
 }
-
