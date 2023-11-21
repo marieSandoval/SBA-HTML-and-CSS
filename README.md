@@ -24,6 +24,8 @@ have suggestions for improvement, please open an issue on the GitHub repository.
 
 Thank you for being a part of Blissful Bowls Ramen! Enjoy the coding!
 
+link: https://github.com/marieSandoval/SBA-HTML-and-CSS.git
+
 (these may be hard to find)
 - inline styling is on home.html within h2 of Top 3 dishes
 - internal styling is on menu.html
